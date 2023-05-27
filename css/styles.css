@@ -4,11 +4,13 @@
 
 /* Components */
 @import "components/status-bar.css"; /* status bar is always on the page, so separated */
+@import "components/navigation-bar.css";
 
 /* Screens */
 @import "screens/login.css";
 
 body{
     font-family: "Open Sans", sans-serif;
+    height: 1000vh;
 }
 
