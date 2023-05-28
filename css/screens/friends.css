@@ -8,6 +8,9 @@
     background-color: #fafafa;
     padding: 15px 0px;
     font-size: 18px;
+    /*minus margin to neutralize the margin top given on screen-header.css
+    .screen-header margin-bottom 15px*/
+    margin-top: -15px;
 }
 
 .friends-display-link i{
