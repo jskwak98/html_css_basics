@@ -5,6 +5,9 @@
     padding-top: 40px;
     align-items: center;
     margin-bottom: 15px;
+}
+
+.alt-header__chat{
     background-color: #abc1d1;
     /*position fixed make the margin of the main div
     to push the alt-header to the bottom, so top:0 is given*/
