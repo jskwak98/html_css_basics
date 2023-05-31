@@ -5,9 +5,34 @@
     padding-top: 40px;
     align-items: center;
     margin-bottom: 15px;
+    background-color: #abc1d1;
+    /*position fixed make the margin of the main div
+    to push the alt-header to the bottom, so top:0 is given*/
+    top: 0;
+    /*z-index is given for the layer level, it should be behind the status bar
+    so that it does not cover it, status bar has z-index 2*/
+    z-index: 1;
 }
 
 .alt-header__title {
     font-size: 26px;
     font-weight: 600;
+}
+
+.alt-header__column {
+    width: 33%;
+}
+
+.alt-header__column:nth-child(2) {
+    text-align: center;
+}
+
+.alt-header__column:last-child {
+    display: flex;
+    margin-left: auto;
+    justify-content: flex-end;
+}
+
+.alt-header__column:last-child span:not(:first-child) {
+    margin-left: 20px;
 }

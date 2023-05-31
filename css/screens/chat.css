@@ -1,0 +1,25 @@
+.status-bar__chat {
+    background-color: #abc1d1;
+    border-bottom: none;
+    /*position fixed make the margin of the main div
+    to push the alt-header to the bottom, so top:0 is given*/
+    top: 0;
+    /*z-index is given for the layer level, it should be in front of
+    the alt header, alt-header has z-index 1*/
+    z-index: 2;
+}
+
+#chat-screen {
+    background-color: #abc1d1;
+}
+
+#chat-screen .alt-header{
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+.main-chat {
+    margin-top: 100px;
+}
